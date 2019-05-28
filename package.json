@@ -1,0 +1,23 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "apexcharts": "^3.7.0",
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "init": "^0.1.2",
+    "jquery": "^3.4.1",
+    "json": "^9.0.6",
+    "npm": "^6.9.0",
+    "popper.js": "^1.15.0",
+    "vue": "^2.6.10",
+    "vue-carousel-3d": "^0.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

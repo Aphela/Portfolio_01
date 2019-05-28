@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+
+      <title>Potfolio</title>
+
+      <link href="css/index.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+      <div class="container-fluid p-0 m-0 ">
+
+          <!-- NAVI -->
+          <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#naviCollapse" aria-controls="naviCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="naviCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.htm">Home<span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#cards" >Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#carousel">Templates</a></li>
+              </ul>
+
+              <ul class="navbar-nav mr-left">
+                <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/szilagyi.brenda" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="https://uk.linkedin.com/in/brenda-szil%C3%A1gyi-b84b71174" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+
+            </div>
+          </nav>
+
+          <div id="data" data-spy="scroll" data-target="#naviCollapse" data-offset="1">
+
+
+          <!-- THE CREAM -->
+          <div class="girl container container-fluid text-center">
+              <img src="img/girl.png" class="img-rounded img-fluid" id="icon">
+              <h1 class="home-title" >Brenda Szilagyi</h1>
+              <h2 class="home-title" >Portfolio</h2>
+          </div>
+
+          <!-- AboutMe -->
+          <div class="donut container container-fluid">
+            <div class="row">
+              <div id="HTML" class="col-sm"></div>
+              <div id="CSS" class="col-sm"></div>
+              <div id="JavaScript" class="col-sm"></div>
+              <div id="Bootstrap" class="col-sm"></div>
+              <div id="Pascal" class="col-sm"></div>
+              <div id="Java" class="col-sm"></div>
+            </div>
+          </div>
+
+          <div class="cards container container-fluid text-center" id="cards">
+            <div class="card-columns">
+              <div class="card p-3 text-left">
+                  <img src="" class="card-img-top">
+                  <div class="card-body">
+                      <h5 class="card-title text-center">Software Developer, Pervacio Hungary Kft.</h5>
+                      <p class="card-text">
+                      o Android Application development in Delphi <br>
+                      o Testing a wide range of Android Devices <br>
+                      o Field Service Support <br>
+                      o Collaborated with developers and performance engineers to enhance supportability and
+                        customer requests <br>
+                      o Modified existing software to correct errors, adapt to new hardware and improve performance
+                      </p>
+                      <p class="card-text text-center"><small>08/2016 - 10/2018</small></p>
+                  </div>
+              </div>
+              <div class="card p-3 text-left">
+                  <img src="">
+                  <div class="card-body">
+                    <h5 class="card-title">System Administrator, ICC Kft.</h5>
+                    <p class="card-text">
+                      o Created and upgraded the Network Architecture <br>
+                      o Troubleshooted and maintained all network devices and infrastructure
+                    </p>
+                    <p class="card-text text-center"><small>01/2016 - 03/2016</small></p>
+                  </div>
+              </div>
+              <div class="card p-3">
+                  <img src="">
+                  <div class="card-body">
+                    <h5 class="card-title">Mihai Eminescu National College</h5>
+                    <p class="card-text">
+                      A-Levels: <br>
+                        Information Technology <br>
+                        Mathematics
+                    </p>
+                    <p class="card-text text-center"><small>2008 - 2012</small></p>
+                  </div>
+              </div>
+              <div class="card p-3">
+                  <img src="">
+                  <div class="card-body">
+                    <h5 class="card-title">Diploma of Higher Education</h5>
+                    <p class="card-text"> System Administrator </p>
+                    <p class="card-text text-center"><small>01/2014 - 03/2016</small></p>
+                  </div>
+              </div>
+              <div class="card p-3 text-left">
+                  <img src="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Phone Sales Agent</h5>
+                    <h6 class="card-title text-center">Telestore Hungary Kft.</h6>
+                    <p class="card-text">
+                      o Customer Service <br>
+                      o Data Reconciliation (in Romanian and Hungarian) <br>
+                      o Wrote sales contracts for orders obtained and submitted orders for processing
+                    </p>
+                    <h6 class="card-title text-center">Nidolife Kft.</h6>
+                    <p class="card-text">
+                      o Customer Service <br>
+                      o Data Reconciliation (in Romanian and Hungarian) <br>
+                      o Wrote sales contracts for orders obtained and submitted orders for processing
+                    </p>
+                    <p class="card-text text-center"><small>01/2013 - 12/2015</small></p>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- temps -->
+          <div id="carousel" class="temps container container-fluis text-center">
+            <carousel-3d :controls-visible="true" :controls-prev-html="'&#10092;'" :controls-next-html="'&#10093;'"
+                 :clickable="false">
+                 <slide v-for="(slide, i) in slides" :index="i">
+                   <figure>
+                     <img src="img/template_prev.jpg">
+                   </figure>
+                 </slide>
+               </carousel-3d>
+          </div>
+
+        </div>
+
+          <!-- FOOTER -->
+          <div class="endling container-fluid bg-primary text-light">
+            <p>© 2018 - Biron</p>
+          </div>
+
+          <!-- Bootstrap core JavaScript -->
+
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+          <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+          <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+          <script src="https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js"></script>
+          <script src="index.js" type="text/javascript"></script>
+          <script src="text.js" type="text/javascript"></script>
+          <script src="charts.js" type="text/javascript"></script>
+
+
+          </script>
+    </div>
+
+
+  </body>
+</html>
